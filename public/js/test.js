@@ -25,7 +25,7 @@ $(function(){
     {input: '=',  expect: {value: '3', sign: ''}},
     {input: '-',  expect: {value: '3', sign: '-'}},
     {input: '6',  expect: {value: '6', sign: ''}},
-    {input: '3',  expect: {value: '-3', sign: ''}},
+    {input: '=',  expect: {value: '-3', sign: ''}},
 
     {input: 'F5', expect: {value: '0', sign: ''}},
     {input: '1',  expect: {value: '1', sign: ''}},
@@ -33,7 +33,7 @@ $(function(){
     {input: '2',  expect: {value: '2', sign: ''}},
     {input: '-',  expect: {value: '3', sign: '-'}},
     {input: '6',  expect: {value: '6', sign: ''}},
-    {input: '3',  expect: {value: '-3', sign: ''}}
+    {input: '=',  expect: {value: '-3', sign: ''}}
   ];
 
   var test_block = $('<div class="js-test">Тестирование...<div class="js-test-info"></div><div class="js-test-result"></div></div>');
